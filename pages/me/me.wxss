@@ -8,6 +8,7 @@
 }
 
 .header {
+  flex-shrink: 0;
   height: 170rpx;
   background: #ffffff;
   display: flex;
@@ -40,6 +41,7 @@
 }
 
 .tabs {
+  flex-shrink: 0;
   background: #ffffff;
   display: flex;
   justify-content: space-around;

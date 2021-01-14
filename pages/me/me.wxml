@@ -6,7 +6,6 @@
     <view class="details">
       <open-data type='userNickName' class="name"></open-data>
     </view>
-    <button open-type="contact" class="qr">帮助与反馈</button>
   </view>
 
   <view class="tabs">
