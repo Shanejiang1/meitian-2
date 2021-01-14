@@ -13,13 +13,12 @@
   height: 250rpx;
   overflow: hidden;
   border-radius: 50%;
-  border: 16rpx solid #f6705a;
   margin-bottom: 20rpx;
   margin-top: 283rpx;
 }
 
 .login .name-wrap {
-  color: #f6705a;
+  color: #333333;
   font-size: 38rpx;
   position: relative;
   display: flex;
@@ -31,11 +30,9 @@
 .login .name-wrap::after {
   content: "";
   position: absolute;
-  bottom: -10rpx;
   left: 50%;
   width: 20%;
   height: 4rpx;
-  background: #f6705a;
   transform: translateX(-50%);
 }
 
@@ -57,11 +54,11 @@ button::after {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  background: linear-gradient(to right, #ef9b75, #f6705a);
+  background: #ea615a;
 }
 
 .login .binding {
-  color: #f6705a;
+  color: #ea615a;
   font-size: 24rpx;
   margin-top: 46rpx;
 }

@@ -1,4 +1,3 @@
-// pages/login/login.js
 const {
   http
 } = require('../../lib/http.js')
@@ -18,7 +17,7 @@ Page({
   },
   wxLogin(encrypted_data, iv) {
     wx.login({
-      success: (res) => this.logonMe(res.code, iv, encrypted_data)
+      success: (res) => this.loginMe(res.code, iv, encrypted_data)
     })
   },
   loginMe(code, iv, encrypted_data) {

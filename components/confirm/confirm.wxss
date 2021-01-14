@@ -13,7 +13,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
   padding: 26rpx 20rpx 0 20rpx;
-  background: #fff;
+  background: #ffffff;
   border-radius: 16rpx;
   width: 640rpx;
   display: flex;
@@ -23,12 +23,12 @@
 }
 
 textarea {
-  background: #f2f2f2;
+  background: #f4f4f4;
   border-radius: 8rpx;
   width: 100%;
   height: 120rpx;
   margin-bottom: 22rpx;
-  color: #737373;
+  color: #333333;
   padding: 10rpx 10rpx;
   font-size: 28rpx;
 }
@@ -50,7 +50,7 @@ textarea {
 }
 
 .actions .sure {
-  color: #F6705A;
+  color: #e17f77;
 }
 
 .actions::after {
@@ -61,5 +61,5 @@ textarea {
   transform: translate(-50%, -50%);
   width: 4rpx;
   height: 70%;
-  background: #F6705A;
+  background: #e17f77;
 }

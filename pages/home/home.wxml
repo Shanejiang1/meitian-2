@@ -1,4 +1,3 @@
-<!--pages/home/home.wxml-->
 <view class="home-container">
   <scroll-view class="todoList" scroll-y="true">
     <view class="item" 
@@ -16,13 +15,13 @@
             data-content="{{item.description}}">{{item.description}}</text>
     </view>
   </scroll-view>
-  <t-button type="change" class="createButton" text="创建任务" bindtap='showCreateConfirm'>创建任务</t-button>
+  <t-button type="change" class="createButton" text="添加任务" bindtap='showCreateConfirm'>添加任务</t-button>
   <view class="tomato-wrapper">
     <navigator class="tomato" url="/pages/tomato/tomato">
      <t-clock text="点击开始闹钟"></t-clock>
     </navigator>
   </view>
-  <t-confirm placeholder="我完成了什么" bindconfirm="confirmCreate" bindcancel="hideCreateConfirm" visible="{{visibleCreateConfirm}}"></t-confirm>
+  <t-confirm placeholder="请输入任务名" bindconfirm="confirmCreate" bindcancel="hideCreateConfirm" visible="{{visibleCreateConfirm}}"></t-confirm>
 
   <t-confirm bindconfirm="confirmUpdate" value="{{updateContent}}" bindcancel="hideUpdateConfirm" visible="{{visibleUpdateConfirm}}"></t-confirm>
 </view>

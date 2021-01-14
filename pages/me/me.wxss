@@ -1,6 +1,6 @@
 /* pages/me/me.wxss */
 .cantainer {
-  background: #f6f6f6;
+  background: #f4f4f4;
   min-height: 100vh;
   max-height: 100vh;
   display: flex;
@@ -12,7 +12,7 @@
   background: #ffffff;
   display: flex;
   align-items: center;
-  color: #fe996f;
+  color: #333333;
   font-size: 22rpx;
   padding: 0 45rpx;
   margin-bottom: 23rpx;
@@ -34,7 +34,7 @@
 }
 
 .header .details .name {
-  color: black;
+  color: #333333;
   font-size: 32rpx;
   padding-bottom: 22rpx;
 }
@@ -63,7 +63,7 @@
   width: 80%;
   height: 8rpx;
   border-radius: 4rpx;
-  background: #fe996f;
+  background: #e17f77;
   position: absolute;
   left: 50%;
   bottom: -16rpx;
@@ -113,6 +113,6 @@
 
 .qr {
   background: transparent;
-  color: #fe996f;
+  color: #333333;
   font-size: 24rpx;
 }

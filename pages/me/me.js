@@ -1,7 +1,7 @@
 // pages/me/me.js
 const {
   http
-} = require('../../lib.http.js');
+} = require('../../lib/http.js');
 
 Page({
   data: {
@@ -43,5 +43,4 @@ Page({
       tab: name
     })
   }
-
 })

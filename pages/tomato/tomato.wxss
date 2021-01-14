@@ -1,6 +1,6 @@
 /* pages/tomato/tomato.wxss */
 .cantainer {
-  background: #F0F7F6;
+  background: #f4f4f4;
   height: 100vh;
 }
 

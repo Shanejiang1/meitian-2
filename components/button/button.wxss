@@ -10,7 +10,7 @@ button::after {
   width: 540rpx;
   height: 80rpx;
   border-radius: 16rpx;
-  color: #fff;
+  color: #ffffff;
   font-size: 26rpx;
   display: flex;
   justify-content: center;
@@ -19,14 +19,14 @@ button::after {
 }
 
 .tomato-button.change {
-  background: linear-gradient(to right, #EF9B75, #F6705A);
-  box-shadow: 0px 11px 32px 0px rgba(246, 112, 90, 0.30);
+  background: #e17f77;
+  box-shadow: 0px 11px 32px 0px rgba(0, 0, 0, 0.10);
 }
 
 .tomato-button.default {
   background: transparent;
-  border: 2rpx solid #F6705A;
-  color: #F6705A;
+  background: #77ace5;
+  color: #ffffff;
 }
 
 .tomato-button.mini {

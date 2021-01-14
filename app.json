@@ -8,14 +8,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTitleText": "每天闹钟",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#515151",
-    "selectedColor": "#F6705A",
-    "backgroundColor": "#fff",
+    "color": "#333333",
+    "selectedColor": "#e17f77",
+    "backgroundColor": "#ffffff ",
     "borderStyle": "black",
     "list": [
       {

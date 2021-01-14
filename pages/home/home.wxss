@@ -1,7 +1,7 @@
 /* pages/home/home.wxss */
 .home-container { 
   height: 100vh;
-  background: #F6F6F6;
+  background: #f4f4f4;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -13,7 +13,7 @@
     padding: 0 28rpx;
   }
   .tomato-wrapper .tomato {
-    background:#EEF7F6;
+    background:#f4f4f4;
     border-radius: 8rpx;
     box-shadow: 0px 2px 8px 0px rgba(0,0,0,0.10);
     height: 473rpx;
@@ -31,7 +31,7 @@
 
  .todoList { 
    padding: 13rpx 30rpx;
-   color: #333;
+   color: #333333;
    font-size: 28rpx;
    box-sizing: border-box;
    max-height: 552rpx;
@@ -40,7 +40,7 @@
   .todoList .item { 
     display: flex;
     align-items: center;
-    background: #fff;
+    background: #ffffff;
     box-shadow: 0rpx 2rpx 6rpx 0rpx rgba(0,0,0,0.10);
     border-radius: 8rpx;
     padding: 17rpx 50rpx;
@@ -59,7 +59,7 @@
      border-radius: 50%;
      width: 28rpx;
      height: 28rpx;
-     border: 4rpx solid #FE996F;
+     border: 4rpx solid #a3a3a3;
      margin-right: 30rpx;
      position: relative;
     }
@@ -72,5 +72,5 @@
     width: 20rpx;
     height: 20rpx;
     border-radius: 50%;
-    background: #FE996F;
+    background: #a3a3a3;
   }
