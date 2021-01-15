@@ -9,7 +9,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "每天闹钟",
+    "navigationBarTitleText": "每天时间管理",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
