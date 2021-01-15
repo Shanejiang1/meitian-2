@@ -20,7 +20,7 @@ button::after {
 
 .tomato-button.change {
   background: #e17f77;
-  box-shadow: 0px 11px 32px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 11px 32px 0px rgba(255, 255, 255, 0.10);
 }
 
 .tomato-button.default {
